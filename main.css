@@ -1,0 +1,56 @@
+form{
+
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.Container{
+display: flex;
+flex-direction: column;
+width: 300px;
+
+
+
+}
+
+body{
+
+    background-color: red;
+    width: 1003px;
+    height: 543px;
+}
+
+.two{
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    align-content: center;
+    
+  
+}
+
+.three{
+
+    display: flex;
+    justify-content: right;
+    width: 300px;
+    flex-direction: column;
+
+}
+input{
+    background-color: red;
+}
+
+select{
+
+    background-color: red;
+}
+
+label{
+
+    color: white;
+    font-family: sans-serif;
+    
+}
