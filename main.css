@@ -9,14 +9,11 @@ form{
 display: flex;
 flex-direction: column;
 width: 300px;
-
-
-
 }
 
 body{
 
-    background-color: red;
+    background-color:#5BA2D5;
     width: 1003px;
     height: 543px;
 }
@@ -40,12 +37,22 @@ body{
 
 }
 input{
-    background-color: red;
+    background-color: #5BA2D5;
+    border: 2px solid white;
+    
+}
+
+input:focus{
+
+    color: #2C6998;
 }
 
 select{
 
-    background-color: red;
+    background-color: #5BA2D5;
+    color: white;
+    border: 2px solid white;
+
 }
 
 label{
